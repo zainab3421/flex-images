@@ -25,13 +25,6 @@ Desktop : 1200px */
     }
 }
 
-@media screen and (max-width:992px){
-    .container{
-        flex:33%;
-        width: 33%;
-    }
-}
-
 @media screen and (max-width:768px){
     .container{
         flex:50%;
