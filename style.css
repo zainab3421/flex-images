@@ -1,5 +1,11 @@
 .parent{
     display:flex;
+    flex-wrap:wrap;
+}
+
+.container{
+    flex:25%;
+    width: 25%;
 }
 
 .container img{
@@ -12,24 +18,31 @@ Laptop : 992px
 Desktop : 1200px */
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
+    .container{
+        flex:25%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .container{
+        flex:33%;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:768px){
     .container{
         flex:50%;
         width: 50%;
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:576px){
     .container{
         flex:100%;
         width: 100%;
-    }
-}
-
-@media screen and (max-width:1200px){
-    .container{
-        flex:75%;
-        width: 75%;
     }
 }
 
