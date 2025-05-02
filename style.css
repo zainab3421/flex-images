@@ -1,0 +1,37 @@
+.parent{
+    display:flex;
+}
+
+.container img{
+    width: 100%;
+}
+
+/* Mobile : 576px
+Tablet : 768 px
+Laptop : 992px
+Desktop : 1200px */
+
+
+@media screen and (max-width:800px){
+    .container{
+        flex:50%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        flex:100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        flex:75%;
+        width: 75%;
+    }
+}
+
+
+
